@@ -1,0 +1,60 @@
+<!-- <div class="scrollbar scrollbar-hide flex flex-col items-center">
+  <div class="w-4/6"> -->
+<div > 
+    <div class="items-center justify-center bg-white p-4 rounded-lg">
+      <div class="flex space-x-3 items-center">
+        <img
+          class="h-12 w-12 rounded-full shadow-md hover:cursor-pointer"
+          src="../../../assets/mypic.jpg"
+          alt=""
+        />
+        <span 
+          (click)="createPost()"
+          (dblclick)="dcreatePost()"
+          class="h-10 w-full rounded-xl p-2 bg-gray-50 hover:bg-gray-100 hover:cursor-pointer"
+          >commancer un post</span
+        >
+      </div>
+      <div class="flex items-center justify-around py-1">
+        <div
+          class="flex p-1.5 space-x-2 items-center hover:bg-gray-50 hover:rounded-md hover:cursor-pointer"
+        >
+          <img
+            class="h-7 w-7 rounded-md shadow-sm"
+            src="../../../assets/logo.jpeg"
+            alt=""
+          />
+          <span>Médias</span>
+        </div>
+        <div
+          class="flex p-1.5 space-x-2 items-center hover:bg-gray-50 hover:rounded-md hover:cursor-pointer"
+        >
+          <img
+            class="h-7 w-7 rounded-md shadow-sm"
+            src="../../../assets/logo.jpeg"
+            alt=""
+          />
+          <span>Médias</span>
+        </div>
+        <div
+          class="flex p-1.5 space-x-2 items-center hover:bg-gray-50 hover:rounded-md hover:cursor-pointer"
+        >
+          <img
+            class="h-7 w-7 rounded-md shadow-sm"
+            src="../../../assets/logo.jpeg"
+            alt=""
+          />
+          <span>Médias</span>
+        </div>
+      </div>
+    </div>
+    <app-post-card></app-post-card>
+    <app-post-card></app-post-card>
+    <app-post-card></app-post-card>
+    </div>
+
+    <div>
+      <app-create-post [createpost]="createpost"></app-create-post>
+    </div>
+  <!-- </div>
+</div> -->

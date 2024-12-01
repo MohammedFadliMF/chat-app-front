@@ -1,27 +1,51 @@
 # ChatAPP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+This project was originally created with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
-## Development server
+Currently, work has begun on an upgraded version of the project, now using Angular 18, along with the addition of new features and improvements.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Development Server
 
-## Code scaffolding
+Run `ng serve` to start the development server. Navigate to `http://localhost:4200/`. The application will automatically reload if you make changes to any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Code Scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use:
+
+- `ng generate directive`
+- `ng generate pipe`
+- `ng generate service`
+- `ng generate class`
+- `ng generate guard`
+- `ng generate interface`
+- `ng generate enum`
+- `ng generate module`
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--configuration` option for environment-specific builds (e.g., `ng build --configuration production`).
 
-## Running unit tests
+## Running Unit Tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests using [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Running End-to-End Tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng e2e` to execute the end-to-end tests using a testing framework of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Project Versions
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Initial Version
+- **Angular Version:** 16.0.0
+- Features: Basic setup and core functionalities.
+
+### Upgraded Version
+- **Angular Version:** 18.0.0
+- Features:
+  - Migration from Angular 16 to Angular 18.
+  - Enhanced performance and compatibility.
+  - Introduction of new features and optimizations.
+
+## Further Help
+
+For more information on the Angular CLI, run `ng help` or visit the [Angular CLI Overview and Command Reference](https://angular.io/cli).
